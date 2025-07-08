@@ -1,0 +1,321 @@
+/*
+
+this is the main page
+
+*/
+html body {
+    background-image: url('/src/pics/logo.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+html::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+html body nav{
+  display: none !important;
+}  
+html body nav ul li{
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+}  
+html body nav ul a{
+  color: white;
+  text-decoration: none;
+}  
+
+html body nav .offcanvas {
+  background-color: black;
+  color: white;
+}
+
+
+html body .container{
+    text-align: center;
+}
+
+
+html body .container .row .welcome{
+    color: white;
+    margin-top:60px;
+    margin-bottom:40px ;
+    font-size: 25px;
+}
+html body .container .row .titr{
+    font-size: 60px;
+    color: white;
+}
+
+html body .container .row .enter{
+    font-size: 30px;
+    animation: enter 0.5s infinite alternate;
+}
+@keyframes enter{
+    from{
+        opacity: 0;
+    }
+}
+html body .container .row .desc{
+    font-size: 30px;
+    color: gray;
+ 
+}
+
+html body .modal .modal-body{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,51,101,1) 55%); 
+}
+
+html body .modal .modal-body .form-group .cipherd{
+  display: none;
+  background-color: #87ff84;
+  color: #025d00;
+  font-size: 20px;
+  border-radius: 20px;
+  border: solid 1px #025d00;
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    color: white; /* Adjust the text color as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+
+
+
+
+
+
+
+
+/*
+this is the portal page
+
+*/
+
+html body .container-portal{
+    background: rgb(9,9,121);
+    background: radial-gradient(circle, rgba(9,9,121,0.5106908974527311) 0%, rgba(0,0,0,0.5639121859681373) 46%, rgba(0,0,0,1) 100%); 
+
+}
+
+
+html body .container .col-md-3 .list-group-item {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #005aab;
+    text-align: left;
+    color: white;
+    padding:10px 25px 10px 25px;
+    cursor: pointer;
+    background: none;
+    transition: all 0.4s ease-out;
+    
+  }
+
+html body .container .col-md-3 .list-group  a{
+  text-decoration: none;
+  color: white;
+}
+
+  html body .container .col-md-3 .list-group-item:hover {
+    background-color: #003566;
+    transition: all 0.4s ease-out;
+
+  }
+
+  html body .container .col-md-9{
+    border-left: 2px solid #005aab;
+    border-top: 2px solid #181818;
+    border-right: 2px solid #181818;
+    border-bottom: 2px solid #181818;
+
+    max-height: 750px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    text-align: left;
+    color: white;
+  }
+
+  html body .container .col-md-9 .none-content{
+    display: block;
+    margin-top: 300px;
+    text-align: center;
+
+  }
+  html body .container .col-md-9 .profile{
+      display: none;
+  }
+  html body .container .col-md-9 .family {
+
+    display: none;
+}
+
+html body .container .col-md-9 .family::-webkit-scrollbar {
+    width: 10px;
+}
+
+html body .container .col-md-9 .family::-webkit-scrollbar-thumb {
+    background-color: #002763; /* color of the thumb */
+    border-radius: 5px;
+}
+
+html body .container .col-md-9 .family::-webkit-scrollbar-track {
+    background-color: black; /* color of the track */
+    border-radius: 5px;
+}
+html body .container .col-md-9 .family .all-users{
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  padding: 20px 20px 20px 20px;
+}
+html body .container .col-md-9 .family .all-users:hover{
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  background-color: #00053d;
+  border-radius:20px ;
+}
+
+html body .container .col-md-9 .story{
+
+    display: none;
+}
+
+
+
+html body .container .col-md-9 .git{
+  color: white;
+  display: none;
+
+}
+
+html body .container .col-md-9 .songs{
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html body .container .col-md-9 .rules{
+  display: none;
+}
+html body .container .col-md-9 .hounaar-eai{
+  display: none;
+}
+
+html body .container .col-md-9 .hounaar-eai .form-group input{
+  background: none;
+  border: solid 1px gray;
+  border-radius: 25px;
+  color: white;
+}
+html body .container .col-md-9 .hounaar-eai .form-group button{
+border-radius: 50px;
+}
+html body .container .col-md-9 .hounaar-eai .form-group input::placeholder{
+  color:gray;
+
+
+}
+
+html body .container .col-md-9 .nigma{
+  display: none;
+}
+  
+
+html body .container .col-md-9 .arkham{
+  display: none;
+}
+  
+html body .container .col-md-9 .story{
+  display: none;
+}
+
+html body .container .col-md-9 .tool {
+  display: none;
+}
+html body .container .col-md-9 .lang {
+  display: none;
+}
+
+
+
+
+
+  .online{
+    display: block;
+  }
+  .status-online{
+    color: green;
+  }
+  .offline{
+    display: none;
+  }
+  .status-offline{
+    color: red;
+  }
+
+
+  @keyframes fadeOut {
+    from{
+        opacity: 0;
+    }
+}
+
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  
+html body nav{
+  display: block !important;
+}  
+html body .container .col-md-3 {
+  display: none;
+  
+}
+}
+
+/* For screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  html body nav{
+    display: block !important;
+  }  
+  html body .container .col-md-3 {
+    display: none;
+    
+  }}
+
+/* For screens larger than 1200px */
+
+
+
+
