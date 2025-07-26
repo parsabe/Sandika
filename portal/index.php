@@ -9,6 +9,7 @@ if(!isset($_SESSION['anon_id'])){
     return $res ? header("location: /") : header("location: /portal/");
 }
 ?>
+    
 
 <?php include_once "/home/hounaarc/sandika.hounaar.com/src/php/header.php"; ?>
 
