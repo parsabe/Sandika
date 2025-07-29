@@ -2,6 +2,7 @@
 
 
 session_start();
+
 include_once "/home/hounaarc/sandika.hounaar.com/src/php/connection.php";
 
 $selector2 = $connection->prepare("SELECT * FROM users WHERE NOT anon_id = ?");
