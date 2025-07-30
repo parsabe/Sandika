@@ -1,7 +1,6 @@
 <?php
 session_start();
 include_once "/home/hounaarc/sandika.hounaar.com/src/php/connection.php";
-
 if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['r_password'])) {
     $username = mysqli_real_escape_string($connection,$_POST['username']);
     $password = mysqli_real_escape_string($connection,$_POST['password']);
