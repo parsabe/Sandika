@@ -1,0 +1,96 @@
+[30-Jul-2025 17:14:54 Europe/Berlin] arkham.php | POST: {"as_id":"1","answer":"I am the spirit of Amadeus Arkham. Through my actions, I have saved this cursed city, though my own curse is to forever remain in the shadows. My story is carved into the very soul of Arkham and will only be revealed to those dedicated enough to discover it"}
+[30-Jul-2025 17:14:54 Europe/Berlin] arkham.php | missing or empty ciphered/answer
+[30-Jul-2025 17:21:52 Europe/Berlin] arkham.php | POST: {"answer":"I am the spirit of Amadeus Arkham. Through my actions, I have saved this cursed city, though my own curse is to forever remain in the shadows. My story is carved into the very soul of Arkham and will only be revealed to those dedicated enough to discover it"}
+[30-Jul-2025 17:21:58 Europe/Berlin] arkham.php | POST: {"answer":"I am the spirit of Amadeus Arkham. Through my actions, I have saved this cursed city, though my own curse is to forever remain in the shadows. My story is carved into the very soul of Arkham and will only be revealed to those dedicated enough to discover it"}
+[30-Jul-2025 17:22:54 Europe/Berlin] arkham.php | POST: {"answer":"I am the spirit of Amadeus Arkham. Through my actions, I have saved this cursed city, though my own curse is to forever remain in the shadows. My story is carved into the very soul of Arkham and will only be revealed to those dedicated enough to discover it"}
+[30-Jul-2025 17:32:31 Europe/Berlin] arkham.php | COOKIE: Array
+(
+    [PHPSESSID] => a220cc0b355bb61f55c0570d5c277d14
+    [login_cookie] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:32:31 Europe/Berlin] arkham.php | SESSION: Array
+(
+    [anon_id] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:32:31 Europe/Berlin] arkham.php | no as1–as9 field found
+[30-Jul-2025 17:33:32 Europe/Berlin] arkham.php | COOKIE: Array
+(
+    [PHPSESSID] => a220cc0b355bb61f55c0570d5c277d14
+    [login_cookie] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:33:32 Europe/Berlin] arkham.php | SESSION: Array
+(
+    [anon_id] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:33:32 Europe/Berlin] arkham.php | no as1–as9 field found
+[30-Jul-2025 17:34:02 Europe/Berlin] arkham.php | COOKIE: Array
+(
+    [PHPSESSID] => a220cc0b355bb61f55c0570d5c277d14
+    [login_cookie] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:34:02 Europe/Berlin] arkham.php | SESSION: Array
+(
+    [anon_id] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:34:02 Europe/Berlin] arkham.php | no as1–as9 POST key found
+[30-Jul-2025 17:34:09 Europe/Berlin] arkham.php | COOKIE: Array
+(
+    [PHPSESSID] => a220cc0b355bb61f55c0570d5c277d14
+    [login_cookie] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:34:09 Europe/Berlin] arkham.php | SESSION: Array
+(
+    [anon_id] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:34:09 Europe/Berlin] arkham.php | no as1–as9 POST key found
+[30-Jul-2025 17:35:14 Europe/Berlin] arkham.php | COOKIE: Array
+(
+    [PHPSESSID] => dd3a29cc1f89e972f6ee34917aaee563
+    [login_cookie] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:35:14 Europe/Berlin] arkham.php | SESSION: Array
+(
+    [anon_id] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:35:14 Europe/Berlin] arkham.php | no as1–as9 POST key found
+[30-Jul-2025 17:35:30 Europe/Berlin] arkham.php | COOKIE: Array
+(
+    [PHPSESSID] => dd3a29cc1f89e972f6ee34917aaee563
+    [login_cookie] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:35:30 Europe/Berlin] arkham.php | SESSION: Array
+(
+    [anon_id] => b9524d1fad7e93bb
+)
+
+[30-Jul-2025 17:35:30 Europe/Berlin] arkham.php | no as1–as9 POST key found
+[30-Jul-2025 17:37:30 Europe/Berlin] arkham.php | POST: {"answer":"I am the spirit of Amadeus Arkham. Through my actions, I have saved this cursed city, though my own curse is to forever remain in the shadows. My story is carved into the very soul of Arkham and will only be revealed to those dedicated enough to discover it"}
+[30-Jul-2025 17:37:30 Europe/Berlin] arkham.php | SESSION: {"anon_id":"b9524d1fad7e93bb"}
+[30-Jul-2025 17:37:30 Europe/Berlin] arkham.php | missing or empty as_id/answer
+[30-Jul-2025 18:09:10 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php:36
+Stack trace:
+#0 /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php on line 36
+[30-Jul-2025 18:09:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php:36
+Stack trace:
+#0 /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php on line 36
+[30-Jul-2025 18:10:53 Europe/Berlin] PHP Warning:  Undefined array key "id" in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php on line 46
+[30-Jul-2025 18:10:53 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php:55
+Stack trace:
+#0 /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php(55): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /homepages/38/d4299170878/htdocs/sandika.hounaar.com/src/php/arkham.php on line 55
